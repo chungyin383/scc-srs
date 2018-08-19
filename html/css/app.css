@@ -1,0 +1,28 @@
+body {
+	padding: 10px;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.blue {
+	color: blue;
+}
+
+.red {
+	color: red;
+}
+
+table thead th {
+	text-align: center;
+}
+
+.clickable:hover {
+	cursor: pointer;
+	color: blue;
+}
+
+.disabled:hover {
+	cursor: not-allowed;
+}
