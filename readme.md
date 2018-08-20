@@ -1,6 +1,3 @@
-## Live demo
-http://ec2-34-213-32-77.us-west-2.compute.amazonaws.com
-
 ## Deployment
 
 1. Create mySQL database by executing all sql scripts at `sql\ddl` to create tables
