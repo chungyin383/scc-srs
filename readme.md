@@ -24,7 +24,7 @@ Raw data will be provided in Excel format. Follow the steps below to import them
 3. You may wish to truncate the table `student_raw` before importing.
 4. Open cmd, type: 
 ```
-mysqlimport mydb --local --user chungyin383 --host mydb.clljytme3izc.us-west-2.rds.amazonaws.com --password --fields-terminated-by=, --lines-terminated-by=\r\n student_raw.csv
+mysqlimport mydb --local --user "yourUserName" --host "HostAddress" --password --fields-terminated-by=, --lines-terminated-by=\r\n student_raw.csv
 ```
 5. Enter password in cmd
 6. Execute SQL stored in `sql\dml\all.sql`
