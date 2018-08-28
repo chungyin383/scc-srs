@@ -471,7 +471,7 @@ $(document).ready(function(){
 								borderColor: 'rgb(255, 99, 132)',
 								fill: false,
 								lineTension: 0.3,
-								data: conductArr.map(a => config.conductGrade.indexOf(a.conduct)) 
+								data: conductArr.map(a => a.conduct === null ? null : config.conductGrade.indexOf(a.conduct)) 
 							}]
 						},
 						options: {
@@ -498,7 +498,12 @@ $(document).ready(function(){
 								intersect: false
 							},
 							tooltips: {
-								intersect: false
+								intersect: false,
+								callbacks: {
+				                    label: function(tooltipItems, data) { 
+				                        return config.conductGrade[tooltipItems.yLabel];
+				                    }
+				                }
 							}
 						}
 					});
