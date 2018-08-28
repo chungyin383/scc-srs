@@ -1,5 +1,5 @@
 const config = {
-	'curYear': 2016,
+	'curYear': 2018,
 	'subjectList': [
 		{code: 'avg', html: 'Overall'},
 		{code: 'chi', html: 'Chinese'},
