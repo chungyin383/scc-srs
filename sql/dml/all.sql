@@ -100,7 +100,7 @@ CREATE TABLE conduct_with_fk_unique AS
 		conduct,
 	    timeseq
 	FROM conduct_with_fk 
-	GROUP BY std_hist_id;
+	GROUP BY std_hist_id, timeseq;
 
 
 -- ---------------------------------------------------------------------------------------------------------------------
