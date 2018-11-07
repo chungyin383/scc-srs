@@ -5,10 +5,10 @@
 ```
 <?php
 
-define('DB_SERVER', '');
-define('DB_USERNAME', '');
-define('DB_PASSWORD', '');
-define('DB_DATABASE', '');
+define('DB_SERVER', Your server address);
+define('DB_USERNAME', Your user name);
+define('DB_PASSWORD', Your password);
+define('DB_DATABASE', Your database name);
 
 ?>
 ```
