@@ -38,7 +38,7 @@ foreach ($_POST["assessmentClass"] as $std_hist_id => $timeseq_arr) {
 $selectPart = substr($selectPart, 0, -1); // remove the last comma
 $wherePart = substr($wherePart, 0, -4); // remove the last ' OR '
 
-$sql = "SELECT " . $selectPart . "FROM student_hist SH
+$sql = "SELECT " . $selectPart . " FROM student_hist SH
 			LEFT JOIN score S
 			ON SH.std_hist_id = S.std_hist_id
 			LEFT JOIN score_timeseq ST
